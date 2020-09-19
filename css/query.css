@@ -1,0 +1,33 @@
+@media (max-width: 480.98px) {
+    .sectD{
+        flex-direction: column;
+    }
+    .sectE-content{
+        flex-direction: column;
+    }
+    .sectF{
+        flex-direction: column;
+    }
+    .sectF-btn{
+        margin-left: 0rem;
+    }
+    .sectE{
+        height: auto;
+    }
+    nav{
+        
+    }
+    
+    .sectA-links{
+        position: fixed;
+        background: #333;
+        height: 100vh;
+        width: 100%;
+        
+    }
+
+
+}
+@media (min-width: 481px) and (max-width: 767.98px) {}
+@media (min-width: 768px) and (max-width: 1023.98px){}
+@media (min-width: 1024px) and (max-width: 1199.98px){}

@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-top:-1rem ;
+    background: url(../images/banners.jpg);
+    background-repeat: no-repeat;
+}
+.sectA-content{
+    padding: 2rem 3rem;
+}
+.logo{
+    font-size: 1.5rem;
+    
+    color:white;
+}
+h1{
+    font-weight: 700;
+}
+span{
+    color:#61D2B4;
+}.sectA-nav{
+    float: right;
+    margin-top: -3.9rem;
+}
+.sectA-links,a{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding-right: 2rem;
+    color: white;
+}
+.sectA-links:hover{
+    color:#61D2B4 ;
+}
+
+/*.sectA-links,a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 30rem;
+    margin-top: -3rem;
+}
+.sectA-links:hover{
+    color:#61D2B4 ;
+}*/
+.sectB{
+    text-align: center;
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    
+}
+.sectB-title{
+    font-size: 2.6rem;
+}
+.sectB-desc{
+    font-weight: 400;
+    padding-top: -8rem;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+.sectB-btn{
+    width: 19%;
+    padding: 0.9rem;
+    border-radius: 2rem;
+    background-color: #3c56a6;
+    color: white;
+    border:1px solid #3c56a6;
+    
+}
+.sectC{
+    padding: 2rem 3rem;
+    text-align: center;
+    margin-top:20px ;
+}
+.sectC-title{
+    font-size: 3rem;
+    color: #333;
+}
+hr{
+    width: 70px;
+    margin-top: -30px;
+    background-color:#61D2B4 ;
+    color:#61D2B4 ;
+    border-top: 2px solid #61D2B4;
+}
+.sectC-desc{
+    margin-top:10px ;
+    line-height: 25px;
+    color: #333;
+}
+.sectD{
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.sectD-title{
+    font-size:1.5rem ;
+}
+.sectD-one,.sectD-two, .sectD-three{
+    text-align: center;
+    color: #333;
+}
+.sec{
+    margin-top: -1rem;
+}
+.sectE{
+    background: url(../images/bg1.jpg)  no-repeat;
+    color: white;
+    padding: 3rem 4rem;
+}
+.sectE-title{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.sectE-desc{
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 30px;
+}
+.sectE-content{
+    display: flex;
+    justify-content: space-around;
+}
+.sectE-one{
+    color: #61D2B4;
+}
+.sectE-oneP{
+    margin-top: -1rem;
+}
+.sectE-btn{
+    width: 15rem;
+    padding: 0.9rem;
+    border-radius: 2rem;
+    background-color: #3c56a6;
+    color: white;
+    border:1px solid #3c56a6;
+    margin-bottom: 5rem;
+}
+
+.sectF{
+    background: #343a40;
+    color: #fff;
+    margin-top:-1.5em ;
+    display: flex;
+    padding: 5rem 3rem;
+}
+img{
+    color: white;
+}
+.sectF-on{
+    width: 50%;
+}
+.sectF-inputs{
+    width: 50%;
+    padding: 4rem 3rem;
+}
+.sectF-title{
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+.sectF-icon{
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+.sectF-in{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-color: #fff;
+    border-radius: 0px;
+    color: #fff;
+    background: transparent;
+}
+.sectF-in2{
+    width: 80%;
+    padding: 1rem;
+    height: 7rem;
+    border-color: #fff;
+    border-radius: 0px;
+    color: #fff;
+    background: transparent;
+}
+.sectF-btn{
+    width: 15rem;
+    padding: 0.9rem;
+    border-radius: 2rem;
+    background-color: #3c56a6;
+    color: white;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    border:1px solid #3c56a6;
+}
+.loc{
+    font-size: 0.8rem;
+    padding-top: 3rem;
+    padding-left: 5.8rem;
+}
+
