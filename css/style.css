@@ -120,7 +120,8 @@ hr{
     margin-top: -1rem;
 }
 .sectE{
-    background: url(../images/bg1.jpg)  no-repeat;
+    background: url(../images/bg1.jpg) no-repeat ;
+    
     color: white;
     padding: 3rem 4rem;
 }

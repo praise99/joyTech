@@ -15,19 +15,96 @@
         height: auto;
     }
     nav{
-        
+        display: none;
+    }
+    .logo {
+        font-size: 1.1rem;
+        margin-left: -1rem;
+    }
+    .sectB-title {
+    font-size: 1.6rem;
+     }
+     .sectB-desc {
+        font-size: 0.8rem;
+    }
+    .sectB-btn {
+    width: 70%;
+    font-size: 0.9rem;
+    }
+    .sectC-title {
+        font-size: 2rem;
+    }
+    hr {
+        margin-top: -20px;
+    }
+    .sectC-desc {
+        line-height: 23px;
+        padding: 0 -5rem;
+    }
+    p.sectD-desc {
+        padding: 0 -1.6rem;
+        white-space: nowrap;
+        margin-left: -1.8rem;
+    }
+    .sectD-title {
+        font-size: 1.4rem;
+    }
+    .sectE{
+        background-repeat:repeat ;
+    }
+    .sectE-title {
+        font-size: 2rem;
+    }
+    .sectE-desc {
+        font-size: 0.9rem;
+        padding: 0 0.2rem;
+    }
+    .sectE-oneP {
+        margin-top: -1rem;
+        padding: 0 -0.8rem;
+        white-space: nowrap;
+        margin-left: 0rem;
+        font-size: 0.9rem;
+    }
+    .sectE-one {
+        margin-left: 0rem;
+    }
+    .sectE-two {
+        padding-top: 7rem;
+    }
+    .sectF-on {
+        width: 100%;
+    }
+    .sectF-inputs {
+        width: 100%;
+        padding: 4rem 0rem;
+    }
+    .loc {
+        font-size: 0.7rem;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        width: 100%;
     }
     
-    .sectA-links{
-        position: fixed;
-        background: #333;
-        height: 100vh;
-        width: 100%;
-        
-    }
 
 
 }
-@media (min-width: 481px) and (max-width: 767.98px) {}
+@media (min-width: 481px) and (max-width: 767.98px) {
+    .sectD{
+        flex-direction: column;
+    }
+    .sectE-content{
+        flex-direction: column;
+    }
+    .sectF{
+        flex-direction: column;
+    }
+    .sectF-btn{
+        margin-left: 0rem;
+    }
+    .sectE{
+        height: auto;
+    }
+}
 @media (min-width: 768px) and (max-width: 1023.98px){}
 @media (min-width: 1024px) and (max-width: 1199.98px){}
