@@ -7,25 +7,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/query.css">
+        <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <script>
+            $(function() {
+            $(".toggle").on("click", function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+            </script>
     </head>
     <body>
         <main class="container">
             <header class="sectA">
                 <div class="sectA-content">
-                    <h1 class="logo">MARVEL <span class="logo-title">TECHNOLOGY</span></h1>
-                    <nav class="sectA-nav">
-                        <div class="hamburger">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
-                        <ul>
-                            <li class="sectA-links"><a href="#home" class="sectA-links food3">Home</a></li>
-                            <li class="sectA-links"><a href="#services" class="sectA-links food2">Services</a></li>
-                            <li class="sectA-links food"><a href="#products" class="sectA-links">Products</a></li>
-                            
-                            <li class="sectA-links"><a href="#contact" class="sectA-links">Contact</a></li>
+                    <nav>
+                        <ul class="menu">
+                            <li class="logo"><a href="#home">MARVEL <span class="food">TECHNOLOGY</span></a></li>
+                            <li class="item"><a href="#home">Home</a></li>
+                            <li class="item"><a href="#services">Services</a></li>
+                            <li class="item"><a href="#products">Products</a></li>
+                            </li>
+                            <li class="item button"><a href="#contact">Contact</a></li>
+                            <!--<li class="item button secondary"><a href="#">Sign Up</a></li>-->
+                            <li class="toggle"><span class="bars"></span></li>
                         </ul>
                     </nav>
                     <div class="sectB" id="home">

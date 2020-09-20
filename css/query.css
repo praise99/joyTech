@@ -14,9 +14,7 @@
     .sectE{
         height: auto;
     }
-    nav{
-        display: none;
-    }
+    
     .logo {
         font-size: 1.1rem;
         margin-left: -1rem;
@@ -102,9 +100,7 @@
         height: auto;
         background-repeat:repeat ;
     }
-    nav{
-        display: none;
-    }
+    
     .sectB-btn {
         width: 59%;
 
