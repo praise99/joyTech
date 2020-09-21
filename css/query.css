@@ -14,7 +14,9 @@
     .sectE{
         height: auto;
     }
-    
+    .logo a, .toggle a {
+        font-size: 13px;
+    }
     .logo {
         font-size: 1.1rem;
         margin-left: -1rem;
